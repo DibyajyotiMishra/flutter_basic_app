@@ -4,7 +4,7 @@ void main() {
   runApp(MaterialApp(
     home: HomePage(),
     theme: ThemeData(
-      primarySwatch: Colors.purpleAccent[50],
+      primarySwatch: Colors.purpleAccent[100],
     ),
   ));
 }
