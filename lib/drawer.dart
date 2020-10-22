@@ -9,6 +9,7 @@ class MyDrawer extends StatelessWidget {
         children: <Widget>[
           UserAccountsDrawerHeader(
             accountName: Text("Welcome !"),
+            accountEmail: Text(""),
             currentAccountPicture: CircleAvatar(
                 backgroundImage: NetworkImage(
                     "https://images.pexels.com/photos/4974914/pexels-photo-4974914.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500")),
